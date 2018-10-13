@@ -149,7 +149,7 @@
                 <artifactId>maven-clover2-plugin</artifactId>
                  <version>3.0.4</version>
                     <configuration>
-                     <includesTestSourceRoots>false</includesTestSourceRoots>
+                    <!-- <includesTestSourceRoots>false</includesTestSourceRoots> -->
                     <generateXml>true</generateXml>
                  </configuration>
         </plugin>
