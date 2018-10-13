@@ -341,8 +341,9 @@
                                     <artifactId>findbugs-maven-plugin</artifactId>
                                     <version>2.4.0</version>
                                     <configuration>
-                                        <effort>Max</effort>
-                                        <xmlOutput>true</xmlOutput>
+                                      <!--  <effort>Max</effort>
+                                        <xmlOutput>true</xmlOutput> -->
+                                        <skip>true</skip>
                                     </configuration>
                                 </plugin>
                                 <plugin>
@@ -464,8 +465,9 @@
                         <artifactId>findbugs-maven-plugin</artifactId>
                         <version>2.4.0</version>
                         <configuration>
-                            <effort>Max</effort>
-                            <xmlOutput>true</xmlOutput>
+                          <!--  <effort>Max</effort>
+                            <xmlOutput>true</xmlOutput> -->
+                            <skip>true</skip>
                         </configuration>
                     </plugin>
                     <plugin>
