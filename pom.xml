@@ -371,6 +371,15 @@
                                     <artifactId>maven-jxr-plugin</artifactId>
                                     <version>2.4</version>
                                 </plugin>
+<plugin>
+<groupId>com.atlassian.maven.plugins</groupId>
+<artifactId>maven-clover2-plugin</artifactId>
+<version>3.0.4</version>
+<configuration>
+<includesTestSourceRoots>false</includesTestSourceRoots>
+<generateXml>true</generateXml>
+</configuration>
+</plugin>
                             </reportPlugins>
                         </configuration>
                         <dependencies>
@@ -495,6 +504,15 @@
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
                     </plugin>
+                    <plugin>
+<groupId>com.atlassian.maven.plugins</groupId>
+<artifactId>maven-clover2-plugin</artifactId>
+<version>3.0.4</version>
+<configuration>
+<includesTestSourceRoots>false</includesTestSourceRoots>
+<generateXml>true</generateXml>
+</configuration>
+</plugin>
                 </plugins>
             </reporting>
         </profile>
